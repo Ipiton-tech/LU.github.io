@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../start/">
+        <link rel="prev" href="../warehouse-request/">
       
       
-        <link rel="next" href="../formation-nomenclature/">
+        <link rel="next" href="../requests-manager/">
       
       
       <link rel="icon" href="../bigcartel.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Заявка на склад - Личный кабинет AP Logistics</title>
+        <title>Формирование номенклатуры - Личный кабинет AP Logistics</title>
       
     
     
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Заявка на склад
+              Формирование номенклатуры
             
           </span>
         </div>
@@ -426,19 +426,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../warehouse-request/" class="md-nav__link">
         
   
   
@@ -449,7 +440,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -459,8 +449,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -478,13 +470,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -500,7 +490,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Номенклатура
@@ -511,10 +501,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../formation-nomenclature/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Формирование номенклатуры
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -525,6 +537,46 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="На этой странице">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      На этой странице
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Добавление отдельных позиций номенклатуры
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#excel-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Загрузка номенклатуры через Excel-файл
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -617,176 +669,47 @@
   gtag('config', 'G-FYVP33C6EY');
 </script>
 
-<h1 id="_1">Заявка на склад</h1>
-<p>Для взаимодействия со складом, вы можете направить следующие заявки:</p>
-<ul>
-<li><strong>Приемка</strong> – приемка продукции на склад для хранения.</li>
-<li><strong>Отгрузка</strong> – отгрузка продукции со склада в соответствии с вашим запросом.</li>
-<li><strong>Резервирование</strong> – резервирование ячеек склада на требуемый период.</li>
-<li><strong>Дополнительные услуги</strong> – печать документов, предоставление европоддонов, стрейчевание паллет.</li>
-</ul>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Приемка</label><label for="__tabbed_1_2">Отгрузка</label><label for="__tabbed_1_3">Резервирование</label><label for="__tabbed_1_4">Дополнительные услуги</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
+<h1 id="_1">Формирование номенклатуры</h1>
+<p>Добавление в заявку номенклатуры возможно как вручную <strong>отдельными артикулами</strong>, так и <strong>общим списком позиций</strong> через загрузку <em>Excel</em>-файла.</p>
+<h2 id="_2">Добавление отдельных позиций номенклатуры</h2>
 <ol>
-<li>Перейдите в раздел «<em>Мои заявки</em>» <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> <em>Приемка</em>.</li>
-<li>Нажмите кнопку «<em>Создать заявку</em>».</li>
+<li>На вкладке «<em>Позиции</em>» нажмите кнопку «<em>Добавить позицию</em>».</li>
+<li>В диалоговом окне на вкладке «<em>Создание позиции</em>» заполните требуемые реквизиты артикула <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> нажмите кнопку «<em>Добавить позицию</em>».</li>
 <li>
-<p>Заполните обязательные реквизиты на вкладке «<em>Информация</em>»:</p>
-<ul>
-<li><em>Дата</em> и <em>Время</em> выполнения работ.</li>
-<li><em>Вид обработки груза</em> (коробками / паллетами).</li>
-</ul>
+<p>На форме выбора позиций в заявку добавьте требуемые артикулы в номенклатуру <small>(установить галку рядом с артикулом)</small> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> нажмите кнопку «<em>Подтвердить выбор</em>».</p>
+<p><figure markdown="span">
+    <a class="glightbox" href="../image18.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image18.png" width="400" /></a>
+    <figcaption><small>Добавление отдельных позиций номенклатуры</small></figcaption>
+</figure></p>
+</li>
+</ol>
+<h2 id="excel-">Загрузка номенклатуры через <em>Excel</em>-файл</h2>
+<ol>
+<li>На вкладке «<em>Позиции</em>» нажмите кнопку «<em>Загрузить excel-файлом</em>».</li>
+<li>Добавьте предварительно заполненный <em>Excel</em>-файл через форму загрузки.<br />
+<code>Excel-шаблон доступен для скачивания по ссылке «Скачать образец таблицы» в диалоговом окне.</code></li>
+<li>
+<p>Нажмите «<em>Продолжить</em>».</p>
+<p><figure markdown="span">
+    <a class="glightbox" href="../image19.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image19.png" width="400" /></a>
+    <figcaption><small>Загрузка номенклатуры через Excel-файл (1)</small></figcaption>
+</figure></p>
+</li>
+<li>
+<p>Ознакомьтесь с загруженными данными на форме предварительного просмотра <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> нажмите кнопку «<em>Добавить в заявку</em>».</p>
+</li>
+<li>
+<p>На форме выбора позиций в заявку добавьте требуемые артикулы в номенклатуру <small>(установить галку рядом с артикулом)</small> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> нажмите кнопку «<em>Сохранить</em>».</p>
+<p><figure markdown="span">
+    <a class="glightbox" href="../image20.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image20.png" width="400" /></a>
+    <figcaption><small>Загрузка номенклатуры через Excel-файл (2)</small></figcaption>
+</figure></p>
+</li>
+</ol>
 <div class="admonition warning">
 <p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15h2v2h-2zm0-8h2v6h-2zm1-5C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8"/></svg></span> <strong>ОБРАТИТЕ ВНИМАНИЕ</strong><br />
-Дальнейшая обработка, например <em>отгрузка принятой продукции</em>, будет осуществляться в соответствии с форматом, указанным при оформлении заявки на приемку – только коробками либо паллетами.</p>
-</div>
-<p><code>При необходимости, вы можете загрузить отсканированную Доверенность.</code></p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Приемка коробками</label><label for="__tabbed_2_2">Приемка паллетами</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>В рамках коробочной обработки груза, вы формируете <a href="../formation-nomenclature/">номенклатуру<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2z"/></svg></span></a> продукции в разрезе <strong>коробок</strong>.  </p>
-<p>Добавление номенклатуры возможно <a href="../formation-nomenclature/#_2">вручную<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2z"/></svg></span></a> отдельными артикулами либо через <a href="../formation-nomenclature/#excel-">загрузку<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2z"/></svg></span></a> общего списка позиций в <em>Excel</em>-файле.</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image4.png" /></a>
-    <figcaption><small>Приемка коробками</small></figcaption>
-</figure></p>
-</div>
-<div class="tabbed-block">
-<p>Паллетная обработка груза предполагает разделение на форматы.</p>
-<p><strong>Паллетно-партионный</strong> – в рамках одной партии может быть указано несколько паллет.</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image5.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image5.png" /></a>
-    <figcaption><small>Паллетно-партионный учет</small></figcaption>
-</figure></p>
-<p><strong>Паллетно-экземплярный</strong> – каждая паллета будет иметь уникальный номер.</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image6.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image6.png" /></a>
-    <figcaption><small>Паллетно-экземплярный учет</small></figcaption>
-</figure></p>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Добавьте в заявку требуемые позиции на вкладке «<em>Позиции</em>».  </p>
-<div class="admonition warning">
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15h2v2h-2zm0-8h2v6h-2zm1-5C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8"/></svg></span> <strong>ОБРАТИТЕ ВНИМАНИЕ</strong><br />
-Если в текущей заявке <em>имеются позиции</em>, <em>добавленные ранее</em> – повторно создавать такие позиции <em>не нужно</em>, достаточно их выбрать из предложенного списка.</p>
-</div>
-<div class="admonition note">
-<p>Расчет стоимости приемки производится в зависимости от выбранного Вида обработки груза и количества заявленных позиций / паллет, а также наличия дополнительных услуг.</p>
-</div>
-</li>
-<li>
-<p>Нажмите кнопку «<em>Сохранить</em>».</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image8.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image8.png" width="400" /></a>
-    <figcaption><small>Заявка на приемку (1)</small></figcaption>
-</figure></p>
-<div class="admonition success">
-<p>После отправки заявки, ожидайте изменение ее статуса на «<em>Выполнена</em>».<br />
-К выгрузке будет доступна <em>унифицированная форма № МХ-1</em> (Акт о приеме-передаче товарно-материальных ценностей на хранение).</p>
-</div>
-<div class="admonition warning">
-<p>В случае расхождений по количеству принятых позиций / паллет, к выгрузке будет доступна <em>унифицированная форма № ТОРГ-2</em> (Акт об установленном расхождении по количеству и качеству при приемке товарно-материальных ценностей).</p>
-</div>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image9.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image9.png" width="400" /></a>
-    <figcaption><small>Заявка на приемку (2)</small></figcaption>
-</figure></p>
-</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>Перейдите в раздел «<em>Мои заявки</em>» <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> <em>Отгрузка</em>.</li>
-<li>Нажмите кнопку «<em>Создать заявку</em>».</li>
-<li>
-<p>Заполните обязательные реквизиты на вкладке «<em>Информация</em>»: <em>Дата</em> и <em>Время</em> выполнения работ.</p>
-<p><code>При необходимости, вы можете загрузить отсканированную Доверенность.</code>
-<p></p></p>
-</li>
-<li>
-<p>Выберете на вкладке «<em>Позиции</em>» требуемые позиции / паллеты, их количество из доступного остатка для отгрузки со склада.</p>
-<div class="admonition note">
-<p>Расчет стоимости отгрузки производится в зависимости от выбранного Вида обработки груза и количества требуемых позиций / паллет, а также наличия дополнительных услуг.</p>
-</div>
-</li>
-<li>
-<p>Нажмите кнопку «<em>Сохранить</em>».</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image10.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image10.png" width="400" /></a>
-    <figcaption><small>Заявка на отгрузку (1)</small></figcaption>
-</figure></p>
-<div class="admonition success">
-<p>После отправки заявки, ожидайте изменение ее статуса на «<em>Выполнена</em>».<br />
-К выгрузке будет доступна <em>унифицированная форма № МХ-3</em> (Акт о приеме-передаче товарно-материальных ценностей на хранение).</p>
-</div>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image11.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image11.png" width="400" /></a>
-    <figcaption><small>Заявка на отгрузку (2)</small></figcaption>
-</figure></p>
-</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>Перейдите в раздел «<em>Мои заявки</em>» <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> <em>Резервирование</em>.</li>
-<li>Нажмите кнопку «<em>Создать заявку</em>».</li>
-<li>
-<p>Заполните обязательные реквизиты:</p>
-<ul>
-<li><em>Количество ячеек</em> для резерва.</li>
-<li><em>Период резервирования</em>.</li>
-</ul>
-<div class="admonition note">
-<p>Расчет стоимости услуги производится в зависимости от количества требуемых ячеек и периода резервирования.</p>
-</div>
-</li>
-<li>
-<p>Нажмите кнопку «<em>Сохранить</em>».</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image12.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image12.png" width="400" /></a>
-    <figcaption><small>Заявка на резервирование</small></figcaption>
-</figure></p>
-<div class="admonition success">
-<p>После отправки заявки, ожидайте изменение ее статуса на «<em>Выполнена</em>».<br />
-Резерв будет активен в установленный период.</p>
-</div>
-</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>Перейдите в раздел «<em>Мои заявки</em>» <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg></span> <em>Дополнительные услуги</em>.</li>
-<li>Нажмите кнопку «<em>Создать заявку</em>».</li>
-<li>
-<p>Заполните обязательные реквизиты:</p>
-<ul>
-<li>На вкладке «<em>Информация</em>» – укажите <em>Дату</em> и <em>Время</em> выполнения работ.</li>
-<li>На вкладке «<em>Дополнительные услуги</em>» – выберете требуемые услуги и их количество.</li>
-</ul>
-<div class="admonition note">
-<p>Расчет общей стоимости дополнительных услуг производится в зависимости от их вида и количества.</p>
-</div>
-</li>
-<li>
-<p>Нажмите кнопку «<em>Сохранить</em>».</p>
-<p><figure markdown="span">
-    <a class="glightbox" href="../image14.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../image14.png" width="400" /></a>
-    <figcaption><small>Дополнительные услуги</small></figcaption>
-</figure></p>
-<div class="admonition success">
-<p>После отправки заявки, ожидайте изменение ее статуса на «<em>Выполнена</em>».</p>
-</div>
-</li>
-</ol>
-<div class="admonition note">
-<p>Дополнительные услуги возможно оформить аналогичным способом, в рамках <strong>новой заявки</strong> на приемку / отгрузку продукции, на вкладке «<em>Дополнительные услуги</em>».</p>
-</div>
-</div>
-</div>
+При загрузке номенклатуры через <em>Excel</em>-файл, <em>ранее созданные позиции с аналогичными артикулами</em> – <em>повторно не загрузятся</em>.<br />
+Вы можете их выбрать на форме выбора позиций в заявку.        </p>
 </div>
 
 
