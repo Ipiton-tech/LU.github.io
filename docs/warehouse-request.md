@@ -1,3 +1,17 @@
+---
+title: Заявка на склад
+---
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FYVP33C6EY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FYVP33C6EY');
+</script>
+
 # Заявка на склад
 
 Для взаимодействия со складом, вы можете направить следующие заявки:
@@ -23,45 +37,40 @@
 
         `При необходимости, вы можете загрузить отсканированную Доверенность.`
         
-        ### **Приемка коробками**
-        При коробочной обработке груза, вы формируете номенклатуру продукции в разрезе коробок.
+        === "Приемка коробками"
+            В рамках коробочной обработки груза, вы формируете [номенклатуру:material-open-in-new:](formation-nomenclature.md) продукции в разрезе **коробок**.  
 
-        <figure markdown="span">
-            ![Image title](image4.png)
-            <figcaption><small>Приемка коробками</small></figcaption>
-        </figure>
+            Добавление номенклатуры возможно [вручную:material-open-in-new:](formation-nomenclature.md#_2) отдельными артикулами либо через [загрузку:material-open-in-new:](formation-nomenclature.md#excel-) общего списка позиций в *Excel*-файле.
 
-        ### **Приемка паллетами**
+            <figure markdown="span">
+                ![Image title](image4.png)
+                <figcaption><small>Приемка коробками</small></figcaption>
+            </figure>
 
-        Паллетная обработка груза предполагает разделение на форматы.
+        === "Приемка паллетами"
+            Паллетная обработка груза предполагает разделение на форматы.
 
-        - **Паллетно-партионный** – в рамках одной партии может быть указано несколько паллет.
+            **Паллетно-партионный** – в рамках одной партии может быть указано несколько паллет.
 
-        <figure markdown="span">
-            ![Image title](image5.png)
-            <figcaption><small>Паллетно-партионный учет</small></figcaption>
-        </figure>
+            <figure markdown="span">
+                ![Image title](image5.png)
+                <figcaption><small>Паллетно-партионный учет</small></figcaption>
+            </figure>
 
-        - **Паллетно-экземплярный** – каждая паллета будет иметь уникальный номер.
+            **Паллетно-экземплярный** – каждая паллета будет иметь уникальный номер.
 
-        <figure markdown="span">
-            ![Image title](image6.png)
-            <figcaption><small>Индивидуальные паллеты</small></figcaption>
-        </figure>
+            <figure markdown="span">
+                ![Image title](image6.png)
+                <figcaption><small>Паллетно-экземплярный учет</small></figcaption>
+            </figure>
         
     4. Добавьте в заявку требуемые позиции на вкладке «*Позиции*».  
     
-        В рамках *коробочной обработки груза*, добавление номенклатуры возможно вручную либо через загрузку общего списка в *Excel*-файле.
-
         !!! warning ""
 
             :material-alert-circle-outline: **ОБРАТИТЕ ВНИМАНИЕ**  
-            Если в текущей заявке **имеются позиции**, в рамках коробочной обработки груза, **добавленные ранее** – повторно создавать такие позиции **не нужно**, достаточно выбрать их из предложенного списка.
+            Если в текущей заявке *имеются позиции*, *добавленные ранее* – повторно создавать такие позиции *не нужно*, достаточно их выбрать из предложенного списка.
         
-        <figure markdown="span">
-            ![Image title](image7.png){ width="400" }
-        </figure>
-
         !!! note ""
 
             Расчет стоимости приемки производится в зависимости от выбранного Вида обработки груза и количества заявленных позиций / паллет, а также наличия дополнительных услуг.
@@ -70,7 +79,7 @@
 
         <figure markdown="span">
             ![Image title](image8.png){ width="400" }
-            <figcaption><small>Заявка на приемку</small></figcaption>
+            <figcaption><small>Заявка на приемку (1)</small></figcaption>
         </figure>
 
         !!! success ""
@@ -84,7 +93,7 @@
         
         <figure markdown="span">
             ![Image title](image9.png){ width="400" }
-            <figcaption><small>Заявка на приемку</small></figcaption>
+            <figcaption><small>Заявка на приемку (2)</small></figcaption>
         </figure>
 
 === "Отгрузка"
@@ -106,7 +115,7 @@
 
         <figure markdown="span">
             ![Image title](image10.png){ width="400" }
-            <figcaption><small>Заявка на отгрузку</small></figcaption>
+            <figcaption><small>Заявка на отгрузку (1)</small></figcaption>
         </figure>
 
         !!! success ""
@@ -116,7 +125,7 @@
         
         <figure markdown="span">
             ![Image title](image11.png){ width="400" }
-            <figcaption><small>Заявка на отгрузку</small></figcaption>
+            <figcaption><small>Заявка на отгрузку (2)</small></figcaption>
         </figure>
 
 === "Резервирование"
