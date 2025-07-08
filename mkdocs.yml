@@ -43,6 +43,8 @@
       - toc.follow
       - content.code.copy
       - header.autohide
+      - search.suggest
+      - search.highlight
       
  markdown_extensions:
     - admonition # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#admonition
@@ -75,7 +77,8 @@
     - tables
     - footnotes
     - toc:
-        permalink: false #убирает якоря на заголовках
+        permalink: ⚓︎ #убирает якоря на заголовках
+        permalink_title: К разделу
         title: На этой странице
  
  
@@ -84,7 +87,7 @@
         lang:
           - ru
 
-    - glightbox:
+    - glightbox: # https://github.com/blueswen/mkdocs-glightbox#usage
         touchNavigation: true
         loop: false
         effect: zoom

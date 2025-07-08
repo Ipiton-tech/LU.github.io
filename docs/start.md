@@ -12,6 +12,7 @@ title: Основные шаги
   gtag('config', 'G-FYVP33C6EY');
 </script>
 
+<body>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -29,6 +30,7 @@ title: Основные шаги
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/103210143" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+</body>
 </head>
 
 # Основные шаги
