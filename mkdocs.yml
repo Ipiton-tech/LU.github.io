@@ -1,6 +1,6 @@
  site_name: Личный кабинет AP Logistics
  site_description: Инструкция для Клиента
- site_author: Ipiton (Elvira Vaiman)
+ site_author: Ipiton (Elvira V.)
 
  theme:
   language: ru # русифицирует сайт, https://ultrabug.github.io/mkdocs-static-i18n/, https://github.com/ultrabug/mkdocs-static-i18n
@@ -27,6 +27,7 @@
     <type>: <material/alert-circle>
 
   name: material # тема оформления сайта https://squidfunk.github.io/mkdocs-material/
+  custom_dir: overrides
   logo: bigcartel.png
   favicon: bigcartel.png
 
@@ -87,7 +88,7 @@
         lang:
           - ru
 
-    - glightbox: # https://github.com/blueswen/mkdocs-glightbox#usage
+    - glightbox: # https://github.com/blueswen/mkdocs-glightbox#usage, https://blueswen.github.io/mkdocs-glightbox/
         touchNavigation: true
         loop: false
         effect: zoom
