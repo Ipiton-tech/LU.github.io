@@ -77,7 +77,7 @@
     - tables
     - footnotes
     - toc:
-        permalink: ⚓︎ #убирает якоря на заголовках
+        permalink: ⚓︎ #добавляет якорь на заголовках
         permalink_title: К разделу
         title: На этой странице
  
