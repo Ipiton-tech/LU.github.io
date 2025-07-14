@@ -78,7 +78,7 @@
     - tables
     - footnotes
     - toc:
-        permalink: ⚓︎ #добавляет якорь на заголовках
+        permalink: ⚓︎ # добавляет якорь на заголовках
         permalink_title: К разделу
         title: На этой странице
  
@@ -126,7 +126,7 @@
                   Благодарим за обратную связь!
      social:
         - icon: fontawesome/brands/slack
-          link: https://ap-logistics.ru
+          link: https://ipiton.ru/
           name: Ipiton Company
           
  copyright: Copyright &copy; 2025 Ipiton Company
